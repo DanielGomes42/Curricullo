@@ -98,5 +98,9 @@ ion-item {
 }
 
 ion-item-divider {
-    min-height: 0;
+    min-height: 10px;
+}
+
+.itemLabel {
+    margin: 30px;
 }
