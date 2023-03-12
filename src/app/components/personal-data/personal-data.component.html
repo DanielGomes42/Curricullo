@@ -1,0 +1,54 @@
+<ion-item>
+    <ion-label id="description">Matrícula</ion-label>
+    <ion-label id="data" *ngIf="cardItem.data.registrationId">
+        {{ cardItem.data.registrationId }}
+    </ion-label>
+</ion-item>
+<ion-item>
+    <ion-label id="description">Cargo</ion-label>
+    <ion-label id="data" *ngIf="cardItem.data.jobName">
+        {{ cardItem.data.jobName }}
+    </ion-label>
+</ion-item>
+<ion-item>
+    <ion-label id="description">Email</ion-label>
+    <ion-label id="data" *ngIf="cardItem.data.email">
+        {{ cardItem.data.email }}
+    </ion-label>
+</ion-item>
+<ion-item>
+    <ion-label id="description">Superior imediato</ion-label>
+    <ion-label id="data" *ngIf="cardItem.data.boss">
+        {{ cardItem.data.boss }}
+    </ion-label>
+</ion-item>
+<ion-item>
+    <ion-label id="description">Admissão na empresa</ion-label>
+    <ion-label id="data" *ngIf="cardItem.data.companyAdmissionDate">
+        {{ cardItem.data.companyAdmissionDate }}
+    </ion-label>
+</ion-item>
+<ion-item>
+    <ion-label id="description">Admissão no cargo</ion-label>
+    <ion-label id="data" *ngIf="cardItem.data.jobAdmissionDate">
+        {{ cardItem.data.jobAdmissionDate }}
+    </ion-label>
+</ion-item>
+<ion-item>
+    <ion-label id="description">Data de demissão</ion-label>
+    <ion-label id="data" *ngIf="cardItem.data.dismissalDate">
+        {{ cardItem.data.dismissalDate }}
+    </ion-label>
+</ion-item>
+<ion-item>
+    <ion-label id="description">Data de nascimento</ion-label>
+    <ion-label id="data" *ngIf="cardItem.data.birthDate">
+        {{ cardItem.data.birthDate }}
+    </ion-label>
+</ion-item>
+<ion-item>
+    <ion-label id="description">Telefone</ion-label>
+    <ion-label id="data" *ngIf="cardItem.data.cellphoneNumber">
+        {{ cardItem.data.cellphoneNumber }}
+    </ion-label>
+</ion-item>

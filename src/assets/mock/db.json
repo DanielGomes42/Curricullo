@@ -1,155 +1,144 @@
 {
-    "payload":[
+    "payload": [
+        {
+            "sections": [
                 {
-    "sections":[
-    {
-    "name":"Dados de identificação",
-    "expanded":true,
-    "cardItems":[
-    {
-    "identifier":"EmployeeData",
-    "readOnly":false,
-    
-    "data":{
-    
-    "employeeName":"Mariza Cristina de Gimene",
-    
-    "registrationId":"27242",
-    "jobAdmissionDate":"20/11/1995",
-    "dismissalDate":null,
-    "jobName":"Gerente de Vendas",
-    "boss":"Jose Francisco Liberato",
-    "companyAdmissionDate":"20/11/1995",
-    
-    "birthDate":"23/04/1966",
-    
-    "cellphoneNumber":"(19) 98936-186",
-    "email":"mariza.gimene@joinrh.com.br"
-    
-    }
-    }
+                    "name": "Dados de identificação",
+                    "expanded": true,
+                    "cardItems": [
+                        {
+                            "identifier": "EmployeeData",
+                            "readOnly": false,
+
+                            "data": {
+                                "employeeName": "Mariza Cristina de Gimene",
+
+                                "registrationId": "27242",
+                                "jobAdmissionDate": "20/11/1995",
+                                "dismissalDate": null,
+                                "jobName": "Gerente de Vendas",
+                                "boss": "Jose Francisco Liberato",
+                                "companyAdmissionDate": "20/11/1995",
+
+                                "birthDate": "23/04/1966",
+
+                                "cellphoneNumber": "(19) 98936-186",
+                                "email": "mariza.gimene@joinrh.com.br"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "Formação acadêmica",
+                    "expanded": true,
+                    "cardItems": [
+                        {
+                            "identifier": "EmployeeEducationLevel",
+
+                            "readOnly": false,
+
+                            "data": [
+                                {
+                                    "period": "1993 a 1994",
+
+                                    "course": "Administração de empresas",
+                                    "local": "Unicamp",
+                                    "educationLevel": "Mestrado Completo"
+                                },
+                                {
+                                    "period": "1986 a 1989",
+
+                                    "course": "Administração de empresas",
+                                    "local": "Universidade Metodista de  Piracicaba",
+                                    "educationLevel": "Ensino Superior Completo"
+                                },
+                                {
+                                    "period": "1981 a 1984",
+
+                                    "course": "Administração de empresas",
+                                    "local": "FIEC",
+                                    "educationLevel": "Ensino Médio Técnico Completo"
+                                },
+                                {
+                                    "period": "1973 a 1980",
+
+                                    "course": null,
+                                    "local": "Colégio Sagrado Coração de Jesus",
+                                    "educationLevel": "Ensino Fundamental Completo"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Idiomas",
+                    "expanded": true,
+                    "cardItems": [
+                        {
+                            "identifier": "EmployeeLanguage",
+
+                            "readOnly": false,
+                            "data": [
+                                {
+                                    "language": "Espanhol",
+                                    "status": "Completo",
+                                    "period": "2013 a 2014",
+                                    "place": null,
+
+                                    "reading": null,
+                                    "writing": null,
+                                    "speaking": null,
+                                    "examLevel": null,
+                                    "examDate": null,
+                                    "examPontuation": 0,
+                                    "languageId": 0
+                                },
+                                {
+                                    "language": "Inglês",
+                                    "status": "Completo",
+                                    "period": "1996 a 2000",
+                                    "place": null,
+                                    "reading": "3 - Avançado",
+                                    "writing": "3 - Avançado",
+                                    "speaking": "2 - Intermediário",
+                                    "examLevel": null,
+                                    "examDate": null,
+                                    "examPontuation": 0,
+                                    "languageId": 0
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Histórico profissional",
+                    "expanded": true,
+                    "cardItems": [
+                        {
+                            "identifier": "EmployeeProfessionalHistory",
+
+                            "readOnly": false,
+                            "data": [
+                                {
+                                    "job": "Gerente de Recursos Humanos",
+                                    "period": "15/03/1995 a 17/07/1995",
+                                    "company": "Singer do Brasil"
+                                },
+                                {
+                                    "job": "Coordenadora de Recursos Humanos",
+                                    "period": "21/11/1990 a 14/03/1995",
+                                    "company": "Singer do Brasil"
+                                },
+                                {
+                                    "job": "Coordenadora de Recursos Humanos",
+                                    "period": "21/05/1986 a 25/10/1990",
+                                    "company": "Indústria de Motores Anauger Ltda."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
     ]
-    },
-    {
-    "name":"Formação acadêmica",
-    "expanded":true,
-    "cardItems":[
-    {
-    "identifier":"EmployeeEducationLevel",
-    
-    "readOnly":false,
-    
-    "data":[
-    {
-    "period":"1993 a 1994",
-    
-    "course":"Administração de empresas",
-    "local":"Unicamp",
-    "educationLevel":"Mestrado Completo"
-    
-    },
-    {
-    
-    "period":"1986 a 1989",
-    
-    "course":"Administração de empresas",
-    "local":"Universidade Metodista de  Piracicaba",
-    "educationLevel":"Ensino Superior Completo"
-    },
-    {
-    "period":"1981 a 1984",
-    
-    "course":"Administração de empresas",
-    "local":"FIEC",
-    "educationLevel":"Ensino Médio Técnico Completo"
-    },
-    {
-    "period":"1973 a 1980",
-    
-    "course":null,
-    "local":"Colégio Sagrado Coração de Jesus",
-    "educationLevel":"Ensino Fundamental Completo"
-    
-    }
-    ]
-    }
-    ]
-    },
-    {
-    "name":"Idiomas",
-    "expanded":true,
-    "cardItems":[
-    {
-    "identifier":"EmployeeLanguage",
-    
-    "readOnly":false,
-    "data":[
-    {
-    "language":"Espanhol",
-    "status":"Completo",
-    "period":"2013 a 2014",
-    "place":null,
-    
-    "reading":null,
-    "writing":null,
-    "speaking":null,
-    "examLevel":null,
-    "examDate":null,
-    "examPontuation":0,
-    "languageId":0
-    
-    },
-    {
-    
-    "language":"Inglês",
-    "status":"Completo",
-    "period":"1996 a 2000",
-    "place":null,
-    "reading":"3 - Avançado",
-    "writing":"3 - Avançado",
-    "speaking":"2 - Intermediário",
-    "examLevel":null,
-    "examDate":null,
-    "examPontuation":0,
-    "languageId":0
-    
-    }
-    ]
-    }
-    ]
-    },
-    {
-    "name":"Histórico profissional",
-    "expanded":true,
-    "cardItems":[
-    {
-    "identifier":"EmployeeProfessionalHistory",
-    
-    "readOnly":false,
-    "data":[
-    {
-    "job":"Gerente de Recursos Humanos",
-    "period":"15/03/1995 a 17/07/1995",
-    "company":"Singer do Brasil"
-    },
-    {
-    
-    "job":"Coordenadora de Recursos Humanos",
-    "period":"21/11/1990 a 14/03/1995",
-    "company":"Singer do Brasil"
-    
-    },
-    {
-    
-    "job":"Coordenadora de Recursos Humanos",
-    "period":"21/05/1986 a 25/10/1990",
-    "company":"Indústria de Motores Anauger Ltda."
-    }
-    ]
-    }
-    ]
-    }
-    ]
-    }
-    ]
-    }
+}

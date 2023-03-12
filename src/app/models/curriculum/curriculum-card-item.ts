@@ -1,5 +1,5 @@
 export interface CurriculumCardItem {
-    data: any
-    identifier: string
-    readonly: boolean
+    data: any;
+    identifier: string;
+    readonly: boolean;
 }

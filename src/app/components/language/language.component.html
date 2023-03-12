@@ -1,0 +1,20 @@
+<ng-container *ngFor="let data of cardItem.data">
+    <ion-item>
+        <ion-label id="description">Língua</ion-label>
+        <ion-label id="data" *ngIf="data.language">
+            {{ data.language }}
+        </ion-label>
+    </ion-item>
+    <ion-item>
+        <ion-label id="description">Período</ion-label>
+        <ion-label id="data" *ngIf="data.period">
+            {{ data.period }}
+        </ion-label>
+    </ion-item>
+    <ion-item>
+        <ion-label id="description">Status</ion-label>
+        <ion-label id="data" *ngIf="data.status">
+            {{ data.status }}
+        </ion-label>
+    </ion-item>
+</ng-container>

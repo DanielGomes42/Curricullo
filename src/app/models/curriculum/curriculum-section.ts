@@ -1,7 +1,7 @@
-import { CurriculumCardItem } from "./curriculum-card-item"
+import { CurriculumCardItem } from './curriculum-card-item';
 
 export interface CurriculumSection {
-    cardItems: CurriculumCardItem[]
-    expanded: boolean
-    name: string
+    cardItems: CurriculumCardItem[];
+    expanded: boolean;
+    name: string;
 }

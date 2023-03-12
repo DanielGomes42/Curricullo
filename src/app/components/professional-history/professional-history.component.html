@@ -1,0 +1,22 @@
+<ng-container *ngIf="cardItem.identifier === 'EmployeeProfessionalHistory'">
+    <ng-container *ngFor="let data of cardItem.data">
+        <ion-item>
+            <ion-label id="description">Empresa</ion-label>
+            <ion-label id="data" *ngIf="data.company">
+                {{ data.company }}
+            </ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label id="description">Cargo</ion-label>
+            <ion-label id="data" *ngIf="data.job">
+                {{ data.job }}
+            </ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label id="description">Período</ion-label>
+            <ion-label id="data" *ngIf="data.period">
+                {{ data.period }}
+            </ion-label>
+        </ion-item>
+    </ng-container>
+</ng-container>
