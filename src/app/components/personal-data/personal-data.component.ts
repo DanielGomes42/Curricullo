@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class PersonalDataComponent implements OnInit {
     @Input() cardItem: any;
+    // o correto é sempre colocar a tipagem
 
     constructor() {}
 

@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { LoadingController } from '@ionic/angular';
 
-export enum LoaderAction {
+export enum LoaderAction { // enum limita as possibilidades
     curriculum = 'curriculum',
     randomUser = 'randomUser',
 }
@@ -14,15 +14,16 @@ export class LoaderService {
 
     async showLoader(message: string, id: LoaderAction): Promise<void> {
         const loader: HTMLIonLoadingElement = await this.loaderController.create({
+            //chama o loader
             message,
             spinner: 'crescent',
-            id,
+            id, //randomUser
         });
 
         loader.present();
     }
 
     async hideLoader(id: LoaderAction): Promise<void> {
-        await this.loaderController.dismiss(null, null, id);
+        await this.loaderController.dismiss(null, null, id); //fecha exatamente o loader que carregou diismiss
     }
 }
