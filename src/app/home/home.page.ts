@@ -12,9 +12,12 @@ import { StorageKey, StorageService } from '../services/storage.service';
     styleUrls: ['home.page.scss'],
 })
 export class HomePage implements OnInit {
+<<<<<<< HEAD
 
 
   textoVisivel = false;
+=======
+>>>>>>> 0b9b983ab605a6c9e988c7cda8ec1137935ec4cb
     items = [
         { name: 'teste', description: 'Descrição do Item 1' },
         { name: 'Item 2', description: 'Descrição do Item 2' },
