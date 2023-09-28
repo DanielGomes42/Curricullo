@@ -16,24 +16,27 @@ export class StorageService {
     }
 
     async setValue(key: StorageKey, value: any): Promise<void> {
-        await this.storage.set(key, JSON.stringify(value));
+        await this.storage.set(key, JSON.stringify(value)); //set nativo guarda o valor convertido para string  guarda uma chave
     }
 
     async getValue(key: StorageKey): Promise<any> {
-        const value = await this.storage.get(key);
+        //storageKey enum    le uma chave
+        const value = await this.storage.get(key); //get nativo
 
         if (!value) {
             return null;
         }
 
-        return JSON.parse(await this.storage.get(key));
+        return JSON.parse(await this.storage.get(key)); //se tem valor ele retorna
     }
 
     async clearValue(key: StorageKey): Promise<void> {
+        //limpa uma chave
         await this.storage.remove(key);
     }
 
     async clearAll(): Promise<void> {
+        //limpa tudo
         await this.storage.clear();
     }
 }

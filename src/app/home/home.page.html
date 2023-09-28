@@ -39,6 +39,36 @@
         <ion-card-subtitle>Developer</ion-card-subtitle>
     </ion-card>
 
+
+
+    <ion-button expand="full"  style="--background: linear-gradient(to bottom, #ff3366, #ff9900);
+    --color: white;" (click)="alternarTexto()">Resumo Profissional</ion-button>
+  <ion-text *ngIf="textoVisivel" class="texto">
+    Desenvolvedor experiente com conhecimento sólido em
+    várias tecnologias e frameworks, incluindo Ionic, Angular, JavaScript, HTML5,
+    SCSS, CSS, Git, Github, React Native, React, Node.js, Typescript, PWA, PHP,
+    Laravel, Flutter, Java e bancos de dados como Firebase, SQLite, SQL e MySQL.
+    Possuo habilidades comprovadas no desenvolvimento de aplicativos móveis,
+    aplicativos da web e soluções de backend. Sou apaixonado por desenvolvimento
+    de software e estou sempre procurando aprender novas tecnologias e aprimorar
+    minhas habilidades.
+  </ion-text>
+    <ion-list>
+
+        <ion-item>
+            <ion-label>Item 2</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label>Item 3</ion-label>
+        </ion-item>
+    </ion-list>
+    <ion-list>
+        <ion-item *ngFor="let item of items">
+            <ion-label>{{item.name}}</ion-label>
+            <ion-note slot="end">{{item.description}}</ion-note>
+        </ion-item>
+    </ion-list>
+
     <ion-card *ngFor="let curriculumSection of curriculumData">
         <details>
             <summary>{{ curriculumSection.name }}</summary>

@@ -32,7 +32,10 @@ export class CurriculumService {
                 responseType: 'json',
             })
             .pipe(
-                map((response) =>
+                //agrupadador
+                map((
+                    response, //map do observable
+                ) =>
                     (response.body as any).results.map(
                         (user: any): RandomUser => ({
                             cell: user.cell,
