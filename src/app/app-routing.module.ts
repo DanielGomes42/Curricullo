@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import { CollaboratorPage } from './collaborator/collaborator.page';
+import { CollaboratorPage } from './pages/Colaborator/collaborator/collaborator.page';
 
 const routes: Routes = [
     {
@@ -15,7 +15,7 @@ const routes: Routes = [
     {
         path: 'collaborator',
         loadChildren: () =>
-            import('./collaborator/collaborator.module').then((m) => m.CollaboratorPageModule),
+            import('./pages/Colaborator/collaborator/collaborator.page').then((m) => m.CollaboratorPage),
     },
 ];
 

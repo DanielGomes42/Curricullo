@@ -8,7 +8,7 @@
                             <ion-menu-button></ion-menu-button>
                         </ion-buttons>
                         <ion-button class="buttonProfile" (click)="navigateProfile()">
-                            Perfil Colaborador</ion-button
+                            DGS DEVELOPERS</ion-button
                         >
                     </ion-toolbar>
                 </ion-header>
@@ -24,13 +24,13 @@
                 <ion-title>Menu Content</ion-title>
             </ion-toolbar>
         </ion-header>
-        <ion-content class="ion-padding">This is the menu content.</ion-content>
+        <ion-content class="ion-padding">Em Homolação</ion-content>
     </ion-menu>
     <section class="image-header"></section>
 
     <div class="avatar-container">
         <ion-avatar>
-            <img src="../assets/images/foto.jpg" />
+            <img src="../assets/images/2.png" />
         </ion-avatar>
     </div>
 
@@ -38,7 +38,7 @@
         <ion-card-title>Daniel G.</ion-card-title>
         <ion-card-subtitle>Developer</ion-card-subtitle>
     </ion-card>
-    <ion-list>
+    <!-- <ion-list>
         <ion-item>
             <ion-label>Item 1</ion-label>
         </ion-item>
@@ -54,23 +54,147 @@
             <ion-label>{{item.name}}</ion-label>
             <ion-note slot="end">{{item.description}}</ion-note>
         </ion-item>
-    </ion-list>
+    </ion-list> -->
 
 
 
     <ion-button expand="full"  style="--background: linear-gradient(to bottom, #ff3366, #ff9900);
     --color: white;" (click)="alternarTexto()">Resumo Profissional</ion-button>
-  <ion-text *ngIf="textoVisivel" class="texto">
-    Desenvolvedor experiente com conhecimento sólido em
-    várias tecnologias e frameworks, incluindo Ionic, Angular, JavaScript, HTML5,
-    SCSS, CSS, Git, Github, React Native, React, Node.js, Typescript, PWA, PHP,
-    Laravel, Flutter, Java e bancos de dados como Firebase, SQLite, SQL e MySQL.
-    Possuo habilidades comprovadas no desenvolvimento de aplicativos móveis,
-    aplicativos da web e soluções de backend. Sou apaixonado por desenvolvimento
-    de software e estou sempre procurando aprender novas tecnologias e aprimorar
-    minhas habilidades.
-  </ion-text>
-    <ion-list>
+ <ion-text *ngIf="textoVisivel" class="texto">
+  <ion-list>
+    <ion-item>
+      Desenvolvedor experiente com conhecimento sólido em várias tecnologias e frameworks, incluindo:
+      <ion-list>
+        <ion-item>Ionic</ion-item>
+        <ion-item>Angular</ion-item>
+        <ion-item>JavaScript</ion-item>
+        <ion-item>HTML5</ion-item>
+        <ion-item>SCSS</ion-item>
+        <ion-item>CSS</ion-item>
+        <ion-item>Git</ion-item>
+        <ion-item>Github</ion-item>
+        <ion-item>React Native</ion-item>
+        <ion-item>React</ion-item>
+        <ion-item>Node.js</ion-item>
+        <ion-item>Typescript</ion-item>
+        <ion-item>PWA</ion-item>
+        <ion-item>PHP</ion-item>
+        <ion-item>Laravel</ion-item>
+        <ion-item>Flutter</ion-item>
+        <ion-item>Java</ion-item>
+      </ion-list>
+    </ion-item>
+    <ion-item>Possuo habilidades comprovadas no desenvolvimento de aplicativos móveis, aplicativos da web e soluções de backend.</ion-item>
+    <ion-item>Sou apaixonado por desenvolvimento de software e estou sempre procurando aprender novas tecnologias e aprimorar minhas habilidades.</ion-item>
+  </ion-list>
+</ion-text>
+
+
+
+
+  <ion-button expand="full"  style="--background: linear-gradient(to bottom, #ff3366, #ff9900);
+  --color: white;" (click)="alternarTexto02()">Conhecimentos</ion-button>
+<ion-text *ngIf="textoVisivel02" class="texto">
+  <ion-list>
+    <ion-item>
+      <ion-icon name="chevron-forward" slot="start"></ion-icon>
+      Desenvolvimento Android
+    </ion-item>
+    <ion-item>
+      <ion-icon name="chevron-forward" slot="start"></ion-icon>
+      Aplicativo móvel. (Android || IOS || Serviços Web || )
+    </ion-item>
+    <ion-item>
+      <ion-icon name="chevron-forward" slot="start"></ion-icon>
+      Banco de dados (Firebase & SQLite & SQL)
+    </ion-item>
+    <ion-item>
+      <ion-icon name="chevron-forward" slot="start"></ion-icon>
+      Serviços de API
+    </ion-item>
+    <ion-item>
+      <ion-icon name="chevron-forward" slot="start"></ion-icon>
+      Java (OOP) e design de materiais
+    </ion-item>
+    <ion-item>
+      <ion-icon name="chevron-forward" slot="start"></ion-icon>
+      Crie aplicativos Ionic 5
+    </ion-item>
+    <ion-item>
+      <ion-icon name="chevron-forward" slot="start"></ion-icon>
+      Plataforma Android (SDK, Android Framework, Suporte do Google, Serviços do Google)
+    </ion-item>
+    <ion-item>
+      <ion-icon name="chevron-forward" slot="start"></ion-icon>
+      Busque ativamente novos conhecimentos de programação
+    </ion-item>
+  </ion-list>
+</ion-text>
+
+
+
+
+
+<ion-button expand="full"  style="--background: linear-gradient(to bottom, #ff3366, #ff9900);
+--color: white;" (click)="alternarTexto03()">Experiência</ion-button>
+<ion-text *ngIf="textoVisivel03" class="texto">
+  <ion-list>
+    <ion-item>
+      <ion-label>
+        <h2>Areatec Tecnologia e Serviços</h2>
+        <p>Engenheiro de software</p>
+        <p>agosto de 2023 - Present (3 meses)</p>
+        <p>Araras, São Paulo, Brasil</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h2>Developer JAVA</h2>
+        <p>Daniel G.</p>
+        <p>Engenheiro de software</p>
+        <p>janeiro de 2023 - Present (10 meses)</p>
+        <p>Desenvolvimento de software personalizado de sistemas de TI</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h2>GaiaNet Sxy</h2>
+        <p>Desenvolvedor de aplicativos móveis</p>
+        <p>2022 - setembro de 2023 (1 ano)</p>
+        <p>Curitiba, Paraná, Brasil</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h2>Workana</h2>
+        <p>Engenheira de software</p>
+        <p>janeiro de 2021 - maio de 2023 (2 anos 5 meses)</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h2>Freelancer.com</h2>
+        <p>Freelancer</p>
+        <p>junho de 2021 - setembro de 2022 (1 ano 4 meses)</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>
+        <h2>99Freelas</h2>
+        <p>Freelancer</p>
+        <p>janeiro de 2021 - setembro de 2022 (1 ano 9 meses)</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-text>
+
+    <!-- <ion-list>
 
         <ion-item>
             <ion-label>Item 2</ion-label>
@@ -78,13 +202,13 @@
         <ion-item>
             <ion-label>Item 3</ion-label>
         </ion-item>
-    </ion-list>
-    <ion-list>
+    </ion-list> -->
+    <!-- <ion-list>
         <ion-item *ngFor="let item of items">
             <ion-label>{{item.name}}</ion-label>
             <ion-note slot="end">{{item.description}}</ion-note>
         </ion-item>
-    </ion-list>
+    </ion-list> -->
 
     <ion-card *ngFor="let curriculumSection of curriculumData">
         <details>
@@ -114,9 +238,9 @@
         </details>
     </ion-card>
 
-    <ion-fab style="margin-left: 135px;">
+    <!-- <ion-fab style="margin-left: 135px;">
         <ion-fab-button (click)="handleUpdateUser()">
             <ion-icon name="refresh"></ion-icon>
         </ion-fab-button>
-    </ion-fab>
+    </ion-fab> -->
 </ion-content>

@@ -12,12 +12,12 @@ import { StorageKey, StorageService } from '../services/storage.service';
     styleUrls: ['home.page.scss'],
 })
 export class HomePage implements OnInit {
-<<<<<<< HEAD
 
 
   textoVisivel = false;
-=======
->>>>>>> 0b9b983ab605a6c9e988c7cda8ec1137935ec4cb
+  textoVisivel02 = false;
+  textoVisivel03 = false;
+
     items = [
         { name: 'teste', description: 'Descrição do Item 1' },
         { name: 'Item 2', description: 'Descrição do Item 2' },
@@ -105,4 +105,25 @@ export class HomePage implements OnInit {
     alternarTexto() {
       this.textoVisivel = !this.textoVisivel;
     }
+
+
+
+    mostrarTexto02() {
+      this.textoVisivel02 = true;
+    }
+
+    alternarTexto02() {
+      this.textoVisivel02 = !this.textoVisivel02;
+    }
+
+
+
+    mostrarTexto03() {
+      this.textoVisivel03 = true;
+    }
+
+    alternarTexto03() {
+      this.textoVisivel03 = !this.textoVisivel03;
+    }
+
 }
